@@ -120,7 +120,7 @@ public class FlvCombiner
   public boolean writeToSingleFile(String out, Notifier n) throws FileNotFoundException {
     long last = System.currentTimeMillis();
 
-    FlvHeader newHeader = new FlvHeader();
+    Header newHeader = new Header();
     newHeader.setHasAudio();
     newHeader.setHasVideo();
 
